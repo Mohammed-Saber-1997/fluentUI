@@ -8,7 +8,7 @@ class TreeViewScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: AppCubit.get(context).isDark ? Colors.black : Colors.white,
+      color: AppCubit.get(context).isDark ? Colors.black : Colors.red,
       child: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.symmetric(vertical: 50.0),
